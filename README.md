@@ -9,6 +9,7 @@ Clean and transform raw datasets using Python (Pandas).
 Orchestrate the workflow using Apache Airflow.
 Store processed data in Google BigQuery.
 Create interactive dashboards in Power BI for business analysis.
+
 🏗️ Architecture
 Raw Sales CSV
         │
