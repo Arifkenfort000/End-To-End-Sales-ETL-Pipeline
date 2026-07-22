@@ -13,23 +13,31 @@ Create interactive dashboards in Power BI for business analysis.
 
 ## 🏗️ Architecture
 
-```mermaid
-flowchart LR
-    A[Raw Sales CSV]
-    B[Google Cloud Storage]
-    C[Apache Airflow<br/>Cloud Composer]
-    D[Python (Pandas)<br/>Data Cleaning & Transformation]
-    E[Cleaned CSV]
-    F[Google BigQuery]
-    G[Power BI Dashboard]
+📄 Raw Sales CSV
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-```
+⬇️
+
+☁️ Google Cloud Storage
+
+⬇️
+
+🌬️ Apache Airflow (Cloud Composer)
+
+⬇️
+
+🐍 Python (Pandas)
+
+⬇️
+
+📄 Cleaned CSV
+
+⬇️
+
+🗄️ Google BigQuery
+
+⬇️
+
+📊 Power BI Dashboard
 
 
 ## 🛠️ Tech Stack
